@@ -1,6 +1,6 @@
 if (typeof define !== 'function') {
     var GeoowComponents = GeoowComponents || {};
-    var define = (depName, dep) => GeoowComponents[depName] = dep;
+    var define = (depName, dep) => GeoowComponents[depName] = dep();
 }
 
 define('Alert', function () {

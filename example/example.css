@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+body, button {
+    font-family: 'Lato', serif;
+}
+
+body {
+    padding: 25px;
+}
+
+button {
+    width: 100%;
+    margin: 3px 0;
+    padding: 10px;
+    font-size: 1.4rem;
+    background: none;
+    border: 1px #000 solid;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}

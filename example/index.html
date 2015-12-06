@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geoow alert example</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,400|Slabo+27px">
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <h1>Geoow alert example</h1>
+
+    <button onclick="regular()">Show regular alert</button>
+    <button onclick="error()">Show error alert</button>
+    <button onclick="success()">Show success alert</button>
+
+    <div id="reactApp"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.min.js"></script>
+    <script src="../dist/alert.js"></script>
+    <script>
+        // Render test app
+        React.render(React.createElement(GeoowComponents.Alert,null),document.getElementById("reactApp"));
+
+        function error ()
+        {
+            alert('You asked for it...', 'Error!', alert.TYPES.ERROR);
+        }
+
+        function success ()
+        {
+            alert('... sucessfull ... blah blah ...', 'Woohoow!', alert.TYPES.SUCCESS);
+        }
+
+        function regular ()
+        {
+            alert('Veeeeeeeeeery regular', 'Regular');
+        }
+    </script>
+</body>
+</html>
