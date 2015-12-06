@@ -1,6 +1,6 @@
 # Geoow Alert
 The alert reinvented with react.js
-See an example <a href="exmple/index.html" target="_blank">here</a>.
+See an example <a href="http://geoow.com/developer/geoow-alert/example" target="_blank">here</a>.
 
 ## Set up
 * Add the dependency to your project and include it to your vendors
