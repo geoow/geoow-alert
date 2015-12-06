@@ -63,7 +63,7 @@ Use alert.native
 
 Example:
 ```
-alert('90s style');
+alert.native('90s style');
 ```
 
 ## License
